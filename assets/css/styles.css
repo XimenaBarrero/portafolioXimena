@@ -8,6 +8,12 @@
    --dark-color: rgb(143, 139, 148);
 }
 
+.main{
+    width: 100%;
+}
+
+
+
 
 *{
    box-sizing: border-box;
