@@ -8,11 +8,6 @@
    --dark-color: rgb(143, 139, 148);
 }
 
-.main{
-    width: 100%;
-}
-
-
 
 
 *{
@@ -364,6 +359,7 @@ footer{
    text-align: center;
    color:white;
 }
+
 
 
 
