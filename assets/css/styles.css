@@ -1,11 +1,12 @@
 
 :root{
     /* --main-color: #197f5b;*/
-   --main-color: #afb03d;
-   /* --accent-color: #EF9919;*/
-   --accent-color: #80696b;
+   /*--main-color: #afb03d;*/
+   --main-color: #b9bb40;
+   --accent-color: #5e486f;
    --light-color: #F9F5F2;
-   --dark-color: rgb(143, 139, 148);
+   /*--dark-color: rgb(143, 139, 148);*/
+   --dark-color: #98888a;
 }
 
 
@@ -289,8 +290,8 @@ progress::-webkit-progress-bar {background-color: #f9f5f2;height: 1.25rem;width:
 progress {width: 100%;border-radius: 1rem;background-color: #f9f5f2;height: 1.25rem;border-radius: 1rem;color: #197f5b;}
 
 /* value: */
-progress::-webkit-progress-value {background-color: #afb03d;border-radius: 1rem;}
-progress::-moz-progress-bar {background-color: #afb03d;border-radius: 1rem;}
+progress::-webkit-progress-value {background-color: #b1a6a7;border-radius: 1rem;}
+progress::-moz-progress-bar {background-color: #b1a6a7;border-radius: 1rem;}
 
 
 .section-experiencia{
@@ -361,7 +362,7 @@ progress::-moz-progress-bar {background-color: #afb03d;border-radius: 1rem;}
 }
 
 .form input, .form textarea{
-   outline: 1px solid green;
+   outline: 1px solid rgb(33, 103, 69);
 }
 
 .form-group{
@@ -374,18 +375,21 @@ progress::-moz-progress-bar {background-color: #afb03d;border-radius: 1rem;}
 .form-control{
 padding: 15px;
 font-size: 1rem;
-background-color: #80696b;
+background-color: #b1a6a7;
 border: 1px solid transparent;
 border-radius: 8px;
+color: #5e486f;
 }
 
 footer{
    padding: 1.2rem;
    background-color: var(--main-color);
    text-align: center;
-   color:white;
+   color:#5e486f;
 }
 
+footer > h5{
+color: #ffffff;}
 
 
 
@@ -421,7 +425,7 @@ footer{
    }
 
    nav > ul > li > a:hover{
-       border-bottom: 1px solid #286f6c;
+       border-bottom: 1px solid rgb(33, 103, 69);
    }
 
    .section-header{
