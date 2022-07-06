@@ -356,6 +356,28 @@ progress::-moz-progress-bar {background-color: #afb03d;border-radius: 1rem;}
    align-items: center;
    margin: .75rem auto;
 }
+.form{
+   padding: 0 25px;
+}
+
+.form input, .form textarea{
+   outline: 1px solid green;
+}
+
+.form-group{
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+   margin-bottom: 2rem;
+}
+
+.form-control{
+padding: 15px;
+font-size: 1rem;
+background-color: #80696b;
+border: 1px solid transparent;
+border-radius: 8px;
+}
 
 footer{
    padding: 1.2rem;
