@@ -31,7 +31,7 @@
                <li><a href="#contacto">Contacto</a></li>
            </ul>
     </nav>
-    <main class="contenedor-principal">
+    
 <section class="section-header">
     <div class="border-1">
         <div class="header-presentacion">
@@ -43,12 +43,12 @@
         </div>
     <div class="border-2">
             <div class="flotante flotante-1">
-                <h5>Instructora</h5>
-                <small>3 años</small>
+                <h5>HTML y CSS</h5>
+                <small>3 meses</small>
         </div>
         <div class="flotante flotante-2">
-                <h5>Instructora</h5>
-                <small>3 años</small>
+                <h5>JavaScript</h5>
+                <small>3 meses</small>
         </div>
 
             <div class="border-3">
@@ -70,11 +70,12 @@
 <div class="trapecio"></div>
 </header>  
 
+<main class="contenedor-principal"></main>
 <section class="colaboracion">
     <h2>Te gustaría colaborar juntos <br>
          creando productos increíbles?</h2>
 
-         <form>
+         <form id= "back-dejatucorreo">
              <input type="text" placeholder="Deja tu correo aquí...">
              <button type="submit">Listo</button>
          </form>
@@ -83,7 +84,7 @@
 <section class="section section-about">
     <a name="acerca" id="acerca"><h2>Acerca de mí</h2></a>
     <p>Me llamo Ximena y soy queretana. Estudié Economía en la UNAM y tengo la fortuna de saber volar, pues también soy Piloto Comercial. Tengo un gran interés por las artes, me gustan los retos, resolver problemas de manera creativa
-        y desarrollar ideas nuevas. Puedo expresarme de la misma manera en inglés como en español, con fotografía y páginas web.</p>
+        y desarrollar ideas nuevas. Soy bilingue (inglés) y me puedo expresar muy bien a través de la escritura, con fotografía y páginas web.</p>
     <a href="./assets/documents/CV Ximena López Barrero 2019 Pdf copia.pdf" download class="btn-download" target="_blank">Descargar CV</a>
 </section>
 
@@ -129,20 +130,21 @@
     </div>
 </section>
 <section class="section-experiencia">
-    <a name="experiencia" id="experiencia"><h2 class="text-center">Experiencia</h2></a>
+  
+    <a name="experiencia" id="experiencia"><h2 class="text-center">Experiencia</h2></a><br>
 <div class="scroll-horizontal">
-    <div class="experiencia-card"><img src="./assets/images/logo_academlo.png">
-    <h5>Academlo</h5><small>1 año</small></div>
+    <div class="experiencia-card"><img id="foto-html" src="./assets/images/html5.png">
+    <h5>HTML</h5><small>3 meses</small></div>
+
+    <div class="experiencia-card"><img src="./assets/images/css.png">
+        <h5>CSS</h5><small>3 meses</small></div>
+
+    <div class="experiencia-card"><img src="./assets/images/javascript.png">
+        <h5>JavaScript</h5><small>3 meses</small></div>
 
     <div class="experiencia-card"><img src="./assets/images/logo_academlo.png">
-        <h5>Academlo</h5><small>1 año</small></div>
-
-    <div class="experiencia-card"><img src="./assets/images/logo_academlo.png">
-        <h5>Academlo</h5><small>1 año</small></div>
-
-    <div class="experiencia-card"><img src="./assets/images/logo_academlo.png">
-         <h5>Academlo</h5><small>1 año</small></div>
-</div>
+         <h5>JavaScript</h5><small>1 mes</small></div>
+        </div>
 </section>
 
 <section class="section section-proyectos">
@@ -189,7 +191,9 @@
             <label for="message">Mensaje</label>
             <textarea id="message" class="form-control" placeholder="Platícame tu idea genial" rows="10"></textarea>
         </div>
+        <div class="cen">
         <input type="submit" class="btn-form" value="Enviar">
+    </div>
     </form>
     <br>
 </section>
