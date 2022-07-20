@@ -10,6 +10,7 @@ const form = document.getElementById("form")
 form.addEventListener("submit", function(e){
     e.preventDefault()
     alert("enviando...")
+    console.log(e.currentTarget)
     const email = "ximenabar96@gmail.com"
     const URL_BASE = "http://formsubmit.co/ajax/${email}"
     const input = e.currentTarget.elements
