@@ -9,6 +9,7 @@ const form = document.getElementById("form")
 /*Formulario*/
 form.addEventListener("submit", function(e){
     e.preventDefault()
+    alert("enviando...")
     const email = "ximenabar96@gmail.com"
     const URL_BASE = "http://formsubmit.co/ajax/${email}"
     const input = e.currentTarget.elements

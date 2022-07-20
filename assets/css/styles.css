@@ -389,7 +389,7 @@ progress::-moz-progress-bar {background-color: #b1a6a7;border-radius: 1rem;}
 }
 
 .form input, .form textarea{
-   outline: 1px solid rgb(33, 103, 69);
+   outline: 3px solid rgb(33, 103, 69);
 }
 
 .form-group{
