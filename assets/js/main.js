@@ -9,10 +9,10 @@ const form = document.getElementById("form")
 /*Formulario*/
 form.addEventListener("submit", function(e){
     e.preventDefault()
-    alert("enviando...")
-    console.log(e.currentTarget)
-    const email = "ximenabar96@gmail.com"
-    const URL_BASE = "http://formsubmit.co/ajax/${email}"
+    alert("enviando...") 
+    const email = `ximenabar96@gmail.com`
+    const URL_BASE = `http://formsubmit.co/ajax/${email}`
+
     const input = e.currentTarget.elements
 
     const dataForm = {
@@ -21,18 +21,19 @@ form.addEventListener("submit", function(e){
         message: input.message.value
     }
 
-    window.fetch(URL_BASE,{
+    window.fetch(URL_BASE, {
         method: "POST",
-        headers:{
-            "Content-Type":"application/json",
-            "Accept": "application/json"
+        headers: { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
         },
-        body: JSON.stringify(dataForm){
-        })
-        
-        alert("tu mensaje se envió correctamente")
+        body: JSON.stringify(dataForm)
+    })
+
+    alert(`tu mensaje se envió correctamente`)
     e.currentTarget.reset()
 })
+    
 
 /*  .then(function (response){
             return response.json()
